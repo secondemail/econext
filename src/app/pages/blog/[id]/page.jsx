@@ -92,7 +92,7 @@ const Blog = () => {
             cooking and kitchen intelligence.
           </p>
           <p className='tw-mb-4'>
-            We've reviewed and ranked all of the best smartwatches on the market right now, and we've made a definitive list of
+            We have reviewed and ranked all of the best smartwatches on the market right now, and we have made a definitive list of
             the top 10 devices you can buy today. One of the 10 picks below may just be your perfect next smartwatch.
           </p>
           <p className='tw-mb-4'>
