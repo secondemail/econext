@@ -97,7 +97,7 @@ const Blog = () => {
           </p>
           <p className='tw-mb-4'>
             Those top-end wearables span from the Apple Watch to Fitbits, Garmin watches to Tizen-sporting Samsung watches.
-            There's also Wear OS which is Google's own wearable operating system in the vein of Apple's watchOS - you’ll see it
+            There is also Wear OS which is Google has own wearable operating system in the vein of Apple watchOS - you will see it
             show up in a lot of these devices.
           </p>
           <p className='tw-font-[600] tw-mb-4'>
@@ -105,7 +105,7 @@ const Blog = () => {
           </p>
           <p className='tw-mb-4'>
             Throughout our review process, we look at the design, features, battery life, spec, price and more for each smartwatch,
-            rank it against the competition and enter it into the list you'll find below.
+            rank it against the competition and enter it into the list you will find below.
           </p>
           <div className='tw-mb-4'>
             <Image src={blogimg2} alt='blogimg2' className='tw-w-full tw-h-[330px]'/>
