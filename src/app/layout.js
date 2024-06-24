@@ -1,5 +1,9 @@
+import 'bootstrap/dist/css/bootstrap.min.css';
 import { Inter } from "next/font/google";
 import "./globals.css";
+import NavBar from './_components/NavBar';
+import Footer from './_components/Footer';
+import { BiUpArrow } from 'react-icons/bi';
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -11,7 +15,16 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+        <NavBar/>
+        <main>
+          {children}
+        </main>
+        <Footer/>
+        <a href='#top' className='tw-fixed tw-bg-[#3BB77E] tw-p-2 tw-text-center tw-bottom-10 tw-right-10 tw-text-white tw-rounded-full'>
+          <BiUpArrow/>
+        </a>
+      </body>
     </html>
   );
 }
