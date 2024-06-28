@@ -150,11 +150,11 @@ const NavBar = () => {
                 </Offcanvas.Header>
                 <Offcanvas.Body>
                   <div className='tw-p-3 tw-border-2 tw-flex tw-items-center tw-border-[#BCE3C9] tw-rounded-[4px]'>
-                    <select className='tw-border-r-2'>
-                      <option>All Categories</option>
+                    <select className='tw-border-r-2 tw-text-sm tw-bg-transparent'>
+                      <option>All</option>
                     </select>
-                    <div className='tw-px-2 tw-flex tw-items-center'>
-                      <input className='tw-text-[14px] focus:tw-outline-none ' type='search' placeholder='Search for items ...' />
+                    <div className='tw-px-2 tw-w-full tw-flex tw-justify-between tw-items-center'>
+                      <input className='tw-text-[14px] tw-w-full tw-pr-5 focus:tw-outline-none ' type='search' placeholder='Search for items ...' />
                       <span className='tw-text-[#7E7E7E] tw-text-2xl'><IoSearchOutline/></span>
                     </div>
                   </div>
@@ -221,7 +221,7 @@ const NavBar = () => {
                         </div>
                       </Link>
                       <hr/>
-                      <Link href="/login">
+                      <Link onClick={handleClose} href="/login">
                         <div className='tw-flex  tw-my-2 tw-justify-between tw-items-center tw-px-2'>
                           <div className='tw-flex tw-items-center tw-gap-2'>
                             <span className='tw-text-3xl'>

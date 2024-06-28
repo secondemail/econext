@@ -23,7 +23,7 @@ const Footer = () => {
   return (
     <Container className={router==="/receipt" || router==="/login" || router==="/signup" ? "tw-hidden" : ""}>
       <div>
-        <Image src={footerimg} alt='' height={500}/>
+        <Image src={footerimg} alt='' className='tw-h-[170px] lg:tw-h-auto' height={500}/>
       </div>
       <div style={{scrollbarWidth:"none"}} className=' tw-flex tw-py-5 tw-gap-10  tw-overflow-x-auto tw-w-[100%] tw-flex-nowrap'>
         {

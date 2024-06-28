@@ -24,7 +24,7 @@ const PopularProducts = () => {
         </div>
         <div className='md:tw-hidden' >
           <Dropdown>
-            <Dropdown.Toggle variant="success" id="dropdown-basic" className='tw-flex tw-gap-2 tw-items-center tw-text-white'>
+            <Dropdown.Toggle id="dropdown-basic" className='tw-flex tw-bg-transparent tw-text-[#3BB77E] tw-gap-2 tw-items-center tw-border-0 tw-p-0'>
               <span className='tw-text-lg'>
                 Sort
               </span>

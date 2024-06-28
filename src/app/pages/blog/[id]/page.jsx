@@ -191,9 +191,12 @@ const Blog = () => {
                 <p className='tw-font-[600] tw-text-center tw-text-[#3BB77E]'>Sienna</p>
               </div>
               <div>
-                <div className='tw-flex tw-justify-between tw-items-center tw-mb-2'>
+                <div className='lg:tw-flex tw-justify-between tw-items-center tw-mb-2'>
                   <div className='tw-text-[#B6B6B6] tw-text-[13px]'>December 4, 2022 at 3:12 pm</div>
-                  <div className='tw-text-yellow-400'>
+                  <div className='tw-text-yellow-400 tw-flex'>
+                    <FaStar/>
+                    <FaStar/>
+                    <FaStar/>
                     <FaStar/>
                   </div>
                 </div>
@@ -213,9 +216,11 @@ const Blog = () => {
                 <p className='tw-font-[600] tw-text-center tw-text-[#3BB77E]'>Sienna</p>
               </div>
               <div>
-                <div className='tw-flex tw-justify-between tw-items-center tw-mb-2'>
+                <div className='lg:tw-flex tw-justify-between tw-items-center tw-mb-2'>
                   <div className='tw-text-[#B6B6B6] tw-text-[13px]'>December 4, 2022 at 3:12 pm</div>
-                  <div className='tw-text-yellow-400'>
+                  <div className='tw-text-yellow-400 tw-flex'>
+                    <FaStar/>
+                    <FaStar/>
                     <FaStar/>
                   </div>
                 </div>
@@ -235,9 +240,10 @@ const Blog = () => {
                 <p className='tw-font-[600] tw-text-center tw-text-[#3BB77E]'>Sienna</p>
               </div>
               <div>
-                <div className='tw-flex tw-justify-between tw-items-center tw-mb-2'>
+                <div className='lg:tw-flex tw-justify-between tw-items-center tw-mb-2'>
                   <div className='tw-text-[#B6B6B6] tw-text-[13px]'>December 4, 2022 at 3:12 pm</div>
-                  <div className='tw-text-yellow-400'>
+                  <div className='tw-text-yellow-400 tw-flex'>
+                    <FaStar/>
                     <FaStar/>
                   </div>
                 </div>

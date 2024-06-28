@@ -27,8 +27,8 @@ const Receipt = () => {
             </div>
           </div>
           <div className='lg:tw-px-20 tw-py-5'>
-            <div className='tw-flex tw-justify-between'>
-              <div className="tw-text-[#7E7E7E]">
+            <div className='lg:tw-flex tw-justify-between tw-pl-5 lg:tw-pl-0'>
+              <div className="tw-text-[#7E7E7E] tw-mb-5 lg:tw-mb-0">
                 <p className='tw-font-[600] tw-text-black tw-mb-2'>Invoice To</p>
                 <p>NestMart Inc</p>
                 <p>billing@NestMart.com</p>
@@ -103,7 +103,7 @@ const Receipt = () => {
               </tbody>
             </Table>
           </div>
-          <div className='lg:tw-flex tw-justify-between lg:tw-px-20 tw-py-7 tw-text-[#7E7E7E]'>
+          <div className='lg:tw-flex tw-pl-2 lg:tw-pl-0 tw-justify-between lg:tw-px-20 tw-py-7 tw-text-[#7E7E7E]'>
             <div>
               <p className='tw-text-black tw-font-[600] tw-text-[25px]'>Important Note</p>
               <div className="tw-text-[12px] tw-pl-4">
@@ -117,7 +117,7 @@ const Receipt = () => {
               <p>Thank you for your trust</p>
               <p>NestMart Co.</p>
               <div className='tw-pt-7'>
-                <div className='tw-flex tw-gap-3'>
+                <div className='tw-flex tw-items-center tw-gap-3'>
                   <div>Follow Us:</div>
                   <div className='tw-text-white tw-bg-[#3BB77E] tw-p-2 tw-rounded-full'>
                     <FaFacebookF/>
